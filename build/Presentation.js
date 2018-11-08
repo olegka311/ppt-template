@@ -440,7 +440,7 @@ var Presentation = function () {
                             case 29:
                                 temp = _context5.sent;
 
-                                temp["Properties"]["Slides"][0] = slides.length;
+                                //temp["Properties"]["Slides"][0] = slides.length;
                                 newContents['docProps/app.xml'] = builder.buildObject(temp);
 
                                 return _context5.abrupt('return', new Promise(function (resolve, reject) {
